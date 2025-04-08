@@ -1,0 +1,10 @@
+streamlit==1.31.0
+langchain==0.1.5
+langchain-chroma==0.0.2
+langchain-ollama==0.0.2
+chromadb==0.4.22
+pypdfium2==4.28.0
+pyyaml==6.0.1
+python-dotenv==1.0.1
+aiohttp==3.9.3
+requests==2.31.0

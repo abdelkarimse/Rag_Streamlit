@@ -1,0 +1,17 @@
+ollama:
+  embedding_model: "bge-m3:latest"
+
+chat_config:
+  chat_memory_length: 5
+  number_of_retrieved_documents: 4
+
+pdf_text_splitter:
+  chunk_size: 1024
+  overlap: 100
+  separators: ["\n", "\n\n", "\t", " ", ""]
+
+chromadb:
+  chromadb_path: "chroma_db"
+  collection_name: "pdfs"
+
+chat_sessions_database_path: "sqlite:///chat_sessions/chat_history.db"
